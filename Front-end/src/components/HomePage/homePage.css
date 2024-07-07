@@ -1,0 +1,34 @@
+ .Content{
+    background-color: white;
+}
+.topper{
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   color: white;
+   height: 35px;
+   width:102% ;
+padding-top: 5px;
+ } 
+.nav{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   cursor: pointer;
+
+}
+.nav>h6{
+   box-shadow: 2px 2px 5px blue;
+   
+}
+.nav>h6:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px red;
+}
+.intro{
+margin-top: 30px;
+margin-left: 50px;
+} 
+
